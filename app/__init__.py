@@ -1,7 +1,7 @@
 from flask import Flask
-from app.paper import paper
-from app.purpur import purpur
-from app.spigot import spigot
+from paper import paper
+from purpur import purpur
+from spigot import spigot
 
 
 
