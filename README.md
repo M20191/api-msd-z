@@ -46,12 +46,9 @@ py .\wsgi.py
 ```python
 # EXAMPLE
 import requests
-
 print("Active development for Minecraft 1.18.2")
-
 # purpur_select = int(input("[1]1.18.2\n[2]1.18.1\n[3]1.16.5\n..."))    
 spigot_select = int(input("[1]1.18.2\n[2]1.18.1\n[3]1.17.1\n..."))
-
    
    
 # spigot/paper/purpur   
@@ -64,4 +61,3 @@ print(resp.json()["link"])
 - [ ] Deploy API
 - [ ] Apply API to MDS-X
 - [x] document better
-    
