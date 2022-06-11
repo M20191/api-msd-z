@@ -43,7 +43,7 @@ py (in windows)
 python3 (in linux)
     
 ```console
-py .\wsgi.py
+py .\main.py
 ```
 
 ## 🚀 Implementation
@@ -62,6 +62,6 @@ print(resp.json()["link"])
 ```
     
 ### ⚙ Future To-do List:
-- [ ] Deploy API
-- [ ] Apply API to MDS-X
+- [x] Deploy API
+- [x] Apply API to MDS-X
 - [x] document better
