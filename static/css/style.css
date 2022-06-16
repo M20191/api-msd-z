@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(backgroundminecraft.png);
+    background-image: url(../img/backgroundminecraft.png);
     background-repeat: repeat;
     background-size: 768px; 
 }
@@ -125,6 +125,7 @@ li{
     background-size: cover;
     width: 1200px;
     height:500px;
+    border-radius: 20px;
     align-items: center;
     margin-right: 25px;
     margin-left: 25px;
@@ -273,9 +274,7 @@ p{
     .container{
         height:400px;
     }
-    .a-link-api{
-      
-    }
+    
     .container-img-text{
         margin-left: 20px;
         margin-right: 20px;
